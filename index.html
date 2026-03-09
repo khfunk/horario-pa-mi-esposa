@@ -45,45 +45,12 @@
             body {
                 padding: 10px;
             }
-            table, thead, tbody, th, td, tr {
-                display: block;
+            table {
+                font-size: 12px;
             }
-            thead tr {
-                position: absolute;
-                top: -9999px;
-                left: -9999px;
-            }
-            tr {
-                border: 1px solid #ccc;
-                margin-bottom: 5px;
+            th, td {
                 padding: 5px;
             }
-            td {
-                border: none;
-                border-bottom: 1px solid #eee;
-                position: relative;
-                padding-left: 50%;
-                padding-top: 2px;
-                padding-bottom: 2px;
-            }
-            td:before {
-                position: absolute;
-                top: 2px;
-                left: 6px;
-                width: 45%;
-                padding-right: 10px;
-                white-space: nowrap;
-                font-weight: bold;
-                font-size: 11px;
-            }
-            td:nth-of-type(1):before { content: "Hora"; }
-            td:nth-of-type(2):before { content: "Lunes"; }
-            td:nth-of-type(3):before { content: "Martes"; }
-            td:nth-of-type(4):before { content: "Miércoles"; }
-            td:nth-of-type(5):before { content: "Jueves"; }
-            td:nth-of-type(6):before { content: "Viernes"; }
-            td:nth-of-type(7):before { content: "Sábado"; }
-            td:nth-of-type(8):before { content: "Domingo"; }
         }
     </style>
 </head>
