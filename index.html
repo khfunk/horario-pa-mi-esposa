@@ -37,10 +37,22 @@
             background-color: #0000FF; /* Azul */
             color: white;
         }
+        .table-container {
+            overflow-x: auto;
+        }
+        @media (max-width: 768px) {
+            table {
+                font-size: 12px;
+            }
+            th, td {
+                padding: 5px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Mi Horario</h1>
+    <div class="table-container">
     <table>
         <thead>
             <tr>
@@ -147,6 +159,7 @@
             </tr>
         </tbody>
     </table>
+    </div>
     <p>MUCHA SUERTE EN TUS CLASES TE AMO MUCHOO&lt;33</p>
 </body>
 </html>
